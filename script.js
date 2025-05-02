@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
             technologies: ["Python", "PyTorch", "Pandas", "NumPy", "AI/ML"],
             category: "ai",
             links: { github: "https://github.com/BJcheng935/GAN-Data-Generation-Project.git" },
-            image: "images/projects/gan-data-generation-project.jpg" // Default image name
+            image: "images/projects/gan-data-generation-project.jpg" 
         },
         {
             title: "Connect Four Game with AI",
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
             technologies: ["Java", "AI", "Game Development"],
             category: "games",
             links: { github: "https://github.com/BJcheng935/Connect-Four-Game-Implementation.git" },
-            image: "connect-four-game-with-ai.jpg" // Default image name
+            image: "images/projects/connect4.jpg" 
         },
         {
             title: "A* Pathfinding Algorithm",
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function () {
             technologies: ["Python", "Algorithms"],
             category: "ai",
             links: { github: "https://github.com/BJcheng935/AI-Pathfinding-Algorithm-Implementation.git" },
-            image: "a-pathfinding-algorithm.jpg" // Default image name
+            image: "images/projects/aiPathFinder.png"
         },
         {
             title: "UDP Communication System",
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function () {
             technologies: ["C", "Linux", "Networking"],
             category: "systems",
             links: { github: "https://github.com/BJcheng935/UDP-Communication-System.git" },
-            image: "udp-communication-system.jpg" // Default image name
+            image: "images/projects/udp_communication.png" 
         },
         {
             title: "GPT-2 Fine-Tuning Project",
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
             technologies: ["Python", "PyTorch", "NLP", "AI"],
             category: "ai",
             links: { github: "https://github.com/BJcheng935/GPT-2-Finetuning-Project.git" },
-            image: "gpt-2-fine-tuning-project.jpg" // Default image name
+            image: "images/projects/GPT_2.png" 
         },
         {
             title: "Reinforcement Learning Implementation",
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
             technologies: ["Python", "AI", "Reinforcement Learning"],
             category: "ai",
             links: { github: "https://github.com/BJcheng935/Reinforcement-Learning-Algorithms-Implementation.git" },
-            image: "reinforcement-learning-implementation.jpg" // Default image name
+            image: "images/projects/reinforcement.png" 
         },
         {
             title: "Implementation of Bootstrap",
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
             technologies: ["HTML", "Bootstrap"],
             category: "websites",
             links: { github: "https://github.com/BJcheng935/WDC_Bootstrap.git" },
-            image: "reinforcement-learning-implementation.jpg" // Default image name
+            image: "images/projects/bootstrap.png"
         },
         {
             title: "Strife",
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
             technologies: ["Javascript", "CSS", "Next.js"],
             category: "websites",
             links: { github: "https://github.com/BJcheng935/WDC_Next_Strife.git" },
-            image: "reinforcement-learning-implementation.jpg" // Default image name
+            image: "images/projects/Strife_Payment.png"
         }
 
     ];
