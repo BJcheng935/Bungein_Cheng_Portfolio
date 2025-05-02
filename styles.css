@@ -4,7 +4,6 @@
     --secondary-color: #f1c40f;
     --accent-color: #3498db;
     --text-color: #333;
-    --background-color: #ffffff;
     --light-gray: #f8f9fa;
     --dark-gray: #6c757d;
     --white: #ffffff;
@@ -12,54 +11,11 @@
     --transition-standard: 0.3s ease;
     --box-shadow-standard: 0 5px 15px rgba(0, 0, 0, 0.1);
     --box-shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.15);
+    --skill-width: 0%;
+    /* Default skill width variable */
 }
 
-/* Dark Mode */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --primary-color: #ecf0f1;
-        --secondary-color: #f39c12;
-        --accent-color: #2980b9;
-        --text-color: #ecf0f1;
-        --background-color: #2c3e50;
-        --light-gray: #34495e;
-        --dark-gray: #95a5a6;
-    }
-
-    body {
-        background-color: var(--background-color);
-        color: var(--text-color);
-    }
-}
-
-/* Skip-Link */
-.skip-link {
-    position: absolute;
-    top: -40px;
-    left: 0;
-    background: var(--secondary-color);
-    color: var(--white);
-    padding: 8px 16px;
-    z-index: 100;
-    transition: top var(--transition-standard);
-}
-
-.skip-link:focus {
-    top: 0;
-}
-
-/* Utility: Hover-Lift */
-.hover-lift {
-    transition: transform var(--transition-standard),
-        box-shadow var(--transition-standard);
-}
-
-.hover-lift:hover {
-    transform: translateY(-10px);
-    box-shadow: var(--box-shadow-hover);
-}
-
-/* Reset & Global */
+/* Reset & Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -69,15 +25,15 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
+    /* Account for fixed header */
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background: var(--background-color);
+    line-height: 1.6;
     color: var(--text-color);
+    background-color: var(--white);
 }
-
-
 
 /* Typography */
 h1,
@@ -992,15 +948,5 @@ footer {
 
     .skill-category {
         margin-bottom: 20px;
-    }
-}
-
-@media (min-width: 769px) {
-    .mobile-menu-btn {
-        display: none !important;
-    }
-
-    nav {
-        display: block !important;
     }
 }
