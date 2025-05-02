@@ -994,3 +994,13 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+@media (min-width: 769px) {
+    .mobile-menu-btn {
+        display: none !important;
+    }
+
+    nav {
+        display: block !important;
+    }
+}
