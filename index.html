@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bungein J Cheng - Portfolio</title>
+    <meta name="description" content="Portfolio of Bungein Cheng, Project Manager & Software Developer.">
+    <meta name="keywords" content="project manager, software developer, portfolio, AI, Python, Java, PyTorch">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Bungein J Cheng</h1>
+                <p class="tagline">Project Manager & Software Developer</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="resume.pdf" download class="btn btn-secondary">Download Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Driving high-quality project delivery through visionary leadership and technical expertise</h2>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn">View My Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Project Manager with 5 years of experience in software development and team leadership, adept at Agile coaching and conflict resolution. Demonstrates visionary leadership in driving high-quality project delivery within budget constraints.</p>
+
+                        <div class="skills">
+                            <h3>Key Skills</h3>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h4>Technical</h4>
+                                    <ul>
+                                        <li>Python <span class="skill-level" data-level="90"></span></li>
+                                        <li>Java <span class="skill-level" data-level="90"></span></li>
+                                        <li>PyTorch <span class="skill-level" data-level="70"></span></li>
+                                        <li>C<span class="skill-level" data-level="60"></span></li>
+                                        <li>SQL <span class="skill-level" data-level="80"></span></li>
+                                        <li>HTML <span class="skill-level" data-level="80"></span></li>
+                                        <li>CSS <span class="skill-level" data-level="80"></span></li>
+                                        <li>JavaScript <span class="skill-level" data-level="60"></span></li>
+                                        <li>React <span class="skill-level" data-level="50"></span></li>
+                                        <li>Node.js <span class="skill-level" data-level="30"></span></li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>Management</h4>
+                                    <ul>
+                                        <li>Team Leadership <span class="skill-level" data-level="90"></span></li>
+                                        <li>Agile Coaching <span class="skill-level" data-level="85"></span></li>
+                                        <li>Problem Solving <span class="skill-level" data-level="90"></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/PorfolioMe.jpg" alt="Bungein Cheng, Project Manager & Software Developer" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI/ML</button>
+                    <button class="filter-btn" data-filter="games">Games</button>
+                    <button class="filter-btn" data-filter="systems">Systems</button>
+                    <button class="filter-btn" data-filter="websites">Websites</button>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project cards inserted by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <!-- Timeline items inserted by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><i class="fas fa-envelope"></i> noobscar935@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> (915) 487-3741</p>
+                        <p><i class="fas fa-map-marker-alt"></i> El Paso, TX</p>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/bungein-cheng-3b945a231/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/BJcheng935" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <form action="https://formspree.io/f/xgvkozzb" method="POST" id="contactForm">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                      
+                        <!-- anti-spam field -->
+                        <input type="text" name="_gotcha" style="display:none">
+                      
+                        <!--redirect to thank-you page -->
+                        <input type="hidden" name="_next" value="https://bjcheng935.github.io/Example_repo/">
+                      
+                        <button type="submit" class="btn">Send Message</button>
+                      </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Bungein J Cheng. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
