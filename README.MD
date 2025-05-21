@@ -13,7 +13,7 @@ Technologies
 Credits
 License
 
-AboutÑ
+About
 
 This repository contains the source code for Bungein J Cheng’s personal portfolio website. It highlights key skills, featured projects, work experience, and provides a contact form for inquiries.
 
