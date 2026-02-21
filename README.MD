@@ -1,4 +1,4 @@
-Bungein J Cheng - Portfolio
+Bungein Cheng  JR - Portfolio
 
 A personal portfolio website showcasing projects, experience, and contact information.
 
